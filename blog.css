@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+nav{
+    flex-basis: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+	transition: transform 0.4s;
+	transform: scale(1.2);
+	cursor: pointer;
+    color: white;
+}
+
+
+header h1{
+    color:  #f2b061;
+}
+
+header h1:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+main h1{
+    padding:50px 0 0 0;
+    margin-left: 20px;
+    font-size: 50px;
+    width:50%;
+
+}
+
+.blog{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.blog h2{
+    font-size: 30px;
+}
+
+.blog p{
+    padding-top: 10px;
+}
